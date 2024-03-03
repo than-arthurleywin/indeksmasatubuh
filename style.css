@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("sky.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  max-width: 460px;
+  min-height: 400px;
+  margin: 100px auto;
+  text-align: center;
+  border: 0.5 solid white;
+  padding: 60px 0px 40px 0px;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+h4 {
+  margin-bottom: 3px;
+}
+
+.kg {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 3px black;
+  margin-bottom: 20px;
+  margin-left: -5px;
+}
+
+.cm {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 3px black;
+  margin-bottom: 20px;
+}
+
+.kirim {
+  background-color: whitesmoke;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 3px black;
+}
+
+.kirim:hover {
+  box-shadow: none;
+}
+
+.kirim:active {
+  padding: 4px 19px 4px 19px;
+  margin-bottom: 52px;
+}
+
+span {
+  margin-left: 3px;
+  font-size: 18px;
+}
+
+.result {
+  font-size: 22px;
+  font-weight: bold;
+}
